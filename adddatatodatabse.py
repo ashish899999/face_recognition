@@ -5,7 +5,7 @@ from firebase_admin import db
 
 cred = credentials.Certificate("servicekey.json")
 firebase_admin.initialize_app(cred, {
-        'databaseURL':"https://facerecognition-58f18-default-rtdb.firebaseio.com/"
+        'databaseURL':""
 
 })
 
