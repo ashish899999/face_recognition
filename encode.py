@@ -9,8 +9,8 @@ from firebase_admin import storage
 
 cred = credentials.Certificate("servicekey.json")
 firebase_admin.initialize_app(cred,{
-    'databaseURL':"https://facerecognition-58f18-default-rtdb.firebaseio.com/",
-    'storageBucket':"facerecognition-58f18.appspot.com"
+    'databaseURL':"",
+    'storageBucket':""
 
 })
 # student information 
